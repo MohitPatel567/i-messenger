@@ -1,0 +1,86 @@
+body
+{
+	background-color: rgb(228, 228, 228);
+}
+.container
+{
+          /* display: inline-block; */
+}
+.block
+{
+          height: 300px;
+          width: 200px;
+}
+input[type="submit"]
+{
+          margin-left: -230px;
+          height: 270px;
+          width: 230px;
+          position: absolute;
+          opacity: 0;
+}
+.logo
+{
+          height: 200px;
+          width: 200px;
+          padding: 0px;
+}
+.profile
+{
+          background-color: red;
+          color: white;
+          text-align: center;
+          padding-left: -5px;
+          border: 10px solid #e62e00;
+          border-radius: 5px;
+          font-family:'Times New Roman', Times, serif;
+          cursor: pointer;
+}
+.profile:hover
+{
+	box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          background-color: white;
+          color: #e62e00;
+          background-color: white;
+          border: 10px solid rgb(235, 233, 233);
+          font-weight: bold;
+}
+a
+{
+          border-radius: 5px;
+          display: block;
+          background-color: red;
+          color: white;
+          text-align: center;
+          border: 10px solid #e62e00;
+          height: 240px;
+          text-decoration: none;
+          font-size: x-large;
+          font-weight: bolder;
+}
+a:hover
+{
+          font-weight: bold;
+	box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1
+{
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          text-align: center;
+          color: #e62e00;
+          font-size:50px;
+}
+h1:hover
+{
+          text-shadow: 1px 2px 3px #e62e00;
+          font-weight: bold;
+          color: white;
+}
+.gname
+{
+          font-size: x-large;
+}
+.admin
+{
+          font-size: larger;
+}

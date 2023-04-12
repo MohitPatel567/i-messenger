@@ -1,0 +1,202 @@
+body
+{
+      background-color: rgba(187, 183, 183, 0.479);
+}
+.main
+{ 
+      animation: animation1 100s infinite;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+}
+.contain1
+{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: large;
+      color: white;     
+}
+@keyframes animation1
+{
+      0%{background-image: url('http://localhost/Project/img/background/image11.jpg');}
+      10%{background-image: url('http://localhost/Project/img/background/image10.jpg');}
+      20%{background-image: url('http://localhost/Project/img/background/image9.jpg');}
+      30%{background-image: url('http://localhost/Project/img/background/image8.jpg');}
+      40%{background-image: url('http://localhost/Project/img/background/image7.jpg');}
+      50%{background-image: url('http://localhost/Project/img/background/image13.jpg');}
+      50%{background-image: url('http://localhost/Project/img/background/image5.jpg');}
+      70%{background-image: url('http://localhost/Project/img/background/image4.jpg');}
+      80%{background-image: url('http://localhost/Project/img/background/image3.jpg');}
+      90%{background-image: url('http://localhost/Project/img/background/image2.jpg');}
+      100%{background-image: url('http://localhost/Project/img/background/image13.jpg');}
+}
+@keyframes animation2
+ {
+      0%{margin-top: -100%;}
+      33%{margin-top: 12%;}
+      66%{margin-top: 8%;}
+      100%{margin-top: 12%;}
+}
+@keyframes animation3
+{
+      0%{transform: skewx(-22deg);}     
+      25%{transform: skewx(22deg);}     
+      50%{transform: skewx(-11deg);}     
+      75%{transform: skewx(11deg);}      
+      100%{transform: skewx(0deg);}
+}
+.container
+{
+      margin-top: 12%;
+      text-align: center;
+      border-radius: 10px;
+      background-color: rgba(0, 0, 0,0.5);
+      box-shadow: 5px 6px 12px  rgba(0, 0, 0, 0.5);
+      animation: animation2 5s 1;
+}
+.logo
+{
+      height: 150px;
+      width: 135x;
+      margin-top: -30%;
+      border-radius: 50%;
+      box-shadow: 5px 6px 12px rgba(0, 0, 0, .5);
+      animation: animation3 5s 1;
+}
+.header
+{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: xx-large;
+      color:white;
+      font-weight: bold;
+}
+.error-message
+{
+      background-color: rgba(255, 99, 71, 0.2);
+      border:2px solid #b30000;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bold;
+      border-radius: 5px;
+      color: #fde0e0;
+      text-align: center;
+      padding: 10px 10px 10px 10px;
+      background-size: 20px;
+      background-repeat: no-repeat;
+      background-position: 15px;
+      display: none;
+      animation: animation3 5s 1;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="number"], select, textarea
+{
+      background-color: white;
+      width: 80%;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: large;
+      border: 2px solid black;
+      border-radius: 5px;
+      padding-left: 40px;
+      padding-bottom:5px ;
+      padding-top:5px ;
+      background-size: 30px;
+      background-repeat: no-repeat; 
+}
+.uname
+{
+      background-image: url('http://localhost/Project/symbol/user_icon.jpg');
+}
+.pass
+{
+      background-image: url('http://localhost/Project/symbol/password.jpg');
+}
+.gname
+{
+      background-image: url('http://localhost/Project/symbol/groupname.jpg');
+}
+.v_code
+{
+      background-image: url('http://localhost/Project/symbol/verify_code.png');
+}
+.email
+{
+      background-image: url('http://localhost/Project/symbol/email.jpg');
+}
+.dob
+{
+      background-image: url('http://localhost/Project/symbol/dob.jpg');
+}
+.about
+{
+      background-image: url('http://localhost/Project/symbol/about.jpg');
+}
+.searchuser
+{
+      background-image: url('http://localhost/project/symbol/search_user.jpg');
+}
+.gender
+{
+      background-image: url('http://localhost/Project/symbol/gender.jpg');
+      width: 100%;
+}
+.button
+{
+    background-color: #e62e00;
+    font-family: cambria;
+    font-size: x-large;
+    border: 0px;
+    border-radius: 5px;
+    color:white;
+    width:100%;
+    height: 40px;
+    cursor: pointer;
+}
+.button:hover, .file_upload:hover
+{
+    background-color: #ad2503;
+    font-weight: bolder;
+}
+a
+{
+    font-family: cambria;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+a:hover
+{
+    color: rgba(245, 245, 245, 0.61);
+    font-weight: bold;
+}
+.image_back
+{
+      height: 300px;
+      width: 300px;
+      animation: animation3 5s 1;
+}
+.file_upload
+{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+input[type="file"]
+{
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.verify
+{
+      display:inline-flexbox;
+}
+.add_user
+{
+      height: 300px;
+      width: 200px;
+}
+option
+{
+      font-size: larger;
+      cursor: pointer;
+}

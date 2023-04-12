@@ -1,0 +1,248 @@
+body
+{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      overflow: hidden;
+	background-color: rgb(228, 228, 228);
+}
+.header
+{
+      position: fixed;
+      left: 12%;
+      text-align: left;
+      display: inline-block;
+}
+.search
+{         
+          background-color: white;
+          width: 385px;
+          padding-top: 5px;
+          padding-left: 5px;
+          display: inline-block;
+}
+input[type="text"]
+{
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          width: 85%;
+          font-size: 15px;
+          border: 2px solid  gray;
+          background-color: rgba(255, 255, 255);
+          padding: 10px;
+          border-radius: 20px;
+          padding-right: 40px;
+}
+.hidden-btn
+{
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      right: 0;
+}
+input[type="text"]:hover
+{
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+          border-radius: 0%;
+}
+input[type="submit"]
+{
+          position: absolute;
+          background-color: rgba(0,0, 0, 0);
+          border: 0px;
+          margin-left: -40px;
+          padding: 10px;
+}
+.all-status
+{
+      top: 9%;
+      left: 12%;
+      position: fixed;
+      overflow-y: auto;
+      width: 400px;
+      height: 575px;
+      overflow-y: auto;
+      display: inline-block;
+}
+#uprofile
+{
+      right: 10%;
+      top: 0px;
+      position: fixed;
+      display: inline-block;
+      margin: 30px;
+}
+.status-box
+{
+      width: 350px;
+      margin-top:30px;
+      margin-bottom:30px;
+}
+.other-user-profile
+{
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 5px;
+      width: 350px;
+}
+.pro_img
+{
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pro-data
+{
+      display: inline-block;
+}
+.video-status
+{
+      width: 350px;
+      height: 450px;
+      box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color: white;
+}
+.uname
+{
+      color: whitesmoke;
+      font-size: large;
+      font-weight: bolder;
+}
+.about
+{
+      color: rgb(255, 248, 248);
+      font-size: 17px;
+}
+.time
+{
+      color:rgb(255, 248, 248);
+      font-size: small;
+}
+.profile-logo
+{
+      box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 50%;
+      height: 250px;
+      width: 250px;
+      background-color: red;
+}
+.label1
+{
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: xx-large;
+      font-weight: bolder;
+      color: red;
+      text-shadow: 3px 3px 3px gray;
+      text-align: center;
+}
+.label2
+{
+      font-family: 'Times New Roman', Times, serif;
+      color:red;
+      font-size: larger;
+      margin: 30px;
+      margin-left: 20%;
+}
+.button
+{
+      background-color: #e62e00;
+      font-family: cambria;
+      font-size: x-large;
+      border: 0px;
+      border-radius: 5px;
+      color:white;
+      cursor: pointer;
+ }
+.button:hover
+{
+      background-color: #e62e00;
+      font-weight: bolder;
+}
+.status-btn
+{
+      margin: 30px 30px 30px 0px;
+      left: 16%;
+      bottom: -20%;
+      width: 100%;
+      display: block;
+      height: 50px;
+}
+#windows
+{
+      display: none;
+      margin-left: 5%;
+      margin-top: 2%;
+      position: fixed;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      border: 2px solid black;
+      height: 90%;
+      width: 90%;
+}
+#upload_status
+{
+      display: none;
+}
+.cancel
+{
+      top:3%;
+      right:4.9%;
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0);
+      color: white;
+      border: 0px;
+      font-size: 50px;
+}
+.cancel:hover
+{
+      color: red;
+      border: 0px;
+}
+.file_upload
+{
+      top: 35%;
+      left: 45%;
+      position: fixed;
+      display: inline-block;
+      overflow: hidden;
+}
+input[type="file"]
+{
+      font-size: 100px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+}
+.file_upload_button
+{
+      background-color: rgba(0, 0, 0, 0);
+      border: 0px;
+      font-size: 100px;
+      font-weight: bold;
+      border: 3px dotted white;
+      border-radius: 5px;
+      color: white;
+}
+label
+{
+      color: whitesmoke;
+      text-align: center;
+      padding: 1%;
+}
+.upload-story
+{
+      padding: 10px 150px 10px 150px;
+      bottom: 10%;
+      left: 33%;
+      position: fixed;
+}
+.refresh_bnt
+{
+      position: fixed;
+      font-size: xx-large;
+      border: 0px;
+      background-color: rgba(0, 0, 0, 0);
+      cursor: pointer;
+}
+.refresh_bnt:hover
+{
+      color: #e62e00;
+}

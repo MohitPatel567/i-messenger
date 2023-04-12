@@ -1,0 +1,31 @@
+body
+{
+    background-color: rgba(187, 183, 183, 0.479);
+    overflow-y: hidden;
+}
+.menu
+{
+    margin-top: -3%;
+}
+.logo
+{
+    height: 200px;
+    border-radius: 10px;
+    width: 200px;
+}
+a
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e62600;
+    border-radius: 10px;
+    border: 10px solid #da2400;
+}
+.label
+{
+    margin-top: -5px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}

@@ -1,0 +1,127 @@
+.main
+{
+          overflow: hidden;
+          background-color: rgb(245, 245, 245);
+}
+/* search box page */
+.search-box
+{
+          height: 40px;
+          width: 100%;
+          position: fixed;
+}         
+.search-textbox
+{
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: small;
+          font-weight: bold;
+          padding: 10px;
+          border: 0px;
+          width: 80%;
+          border: 2px solid red;
+}
+.search-textbox:hover
+{
+          border: 2px solid red;
+          box-shadow: 0 4px 8px 0 rgba(255, 230, 230, 0.2), 0 6px 20px 0 rgba(252, 98, 98, 0.19);   
+}
+.search-button
+{
+          background-color: rgba(0, 0, 0, 0);
+          border: 0px;
+          background-image: url('http://localhost/project/symbol/search.jpg');
+          background-size: 30px 30px;
+          margin-top: 2px;
+          height: 37px;
+          width: 50px;
+          margin-left: -52px;
+          background-color: black;
+          background-repeat: no-repeat;
+          background-position: center;
+          position: absolute;
+}
+.reload-button
+{
+          background-color: red;
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0);
+          font-size: xx-large;
+          border: 0px;
+          cursor: pointer;
+          margin-top: -5px;
+}
+/* all show user style */
+.all-user
+{
+          width: 100%;
+          height: 90%;
+          position: fixed;
+          top: 10%;
+          overflow-y: auto;
+          padding-top: 20px;
+}
+button[type='submit']
+{
+          width: 97%;
+          text-align: left;
+          background-color: white;
+          border-radius: 200px;
+          height: 80px;
+          border: 0px;
+          cursor: pointer;
+          margin-top: 5px;
+          box-shadow: 1 4px 8px 0 rgba(255, 230, 230, 0.2), 0 6px 20px 0 rgba(252, 98, 98, 0.19);   
+          margin-bottom: 5px;
+}
+button[type='submit']:hover
+{
+          border: 4px double white;
+          background-color: red;
+          color: white;
+          border-radius: 0px;
+          border-radius: 10px;
+}
+.logo
+{
+          height: 60px;
+          width: 60px;
+          margin-top: 8px;
+          margin-left: 4px;
+          box-shadow: 0 4px 8px 0 rgba(255, 230, 230, 0.2), 0 6px 20px 0 rgba(252, 98, 98, 0.19);   
+          border-radius: 50%;
+}
+.content
+{
+          display: inline-block;
+}
+.uname
+{
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-size: large;
+          font-weight: bold;
+          padding-left: 20px;
+          margin-top: -20px;
+}
+.about
+{
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-weight: bold;
+          padding: 25px;
+          text-align: right;
+          width: 200px;
+          font-size: small;
+}
+.message-cont
+{
+          background-color: red;
+          width: 25px;
+          height: 20px;
+          font-size: larger;
+          border-radius: 50%;
+          text-align: center;
+          font-weight: bold;
+          color: white;
+          margin-top: -109px;
+          right:7%;
+          position: absolute;
+}

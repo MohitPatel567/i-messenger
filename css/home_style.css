@@ -1,0 +1,163 @@
+body
+{
+      overflow-x: hidden;
+      padding: 16px;
+      margin-top: 30px;
+      height: 1500px;
+}
+/*nabigation bar*/
+.navigation_bar
+{
+      left: 0;
+      top: 0;
+      margin-top: -15px;
+      padding-bottom: 10px;
+      position: fixed;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.8);
+      width: 100%;
+      display: inline-block;
+      text-align: right;
+      margin-right: 20px;
+}
+a
+{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: large;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      display: inline-block;
+      padding: 10px;
+      margin-left: 10px;
+      margin-right:10px;
+}
+a:hover
+{
+      background-color: rgba(97, 91, 91, 0.774);     
+      font-weight: bold;
+      border-radius: 5px;
+}
+.header
+{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: white;
+      font-size: xx-large;
+      display: inline-block;
+      margin-left: 10px;
+}
+.logo_img
+{
+      padding-top: 15px;
+      padding-bottom: 0px;
+      width: 60px;
+      height: 40px;
+      margin-left: 33%;
+      display: inline-block;
+}
+/*home page*/
+#home
+{
+      padding-top: 30px;
+}
+.slider
+{
+      display: none;
+      height:500px;
+      width: 900px;
+      box-shadow: 10px 10px 10px gray;
+      align-content: center;
+}
+.all_button
+{
+      text-align: center;
+      margin-top: -50px;
+}
+.btn
+{
+      background-color: rgb(184, 179, 179);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: large;
+      border:0px;
+      border-radius: 3px;
+      padding: 5px 20px 5px 20px;
+}
+.btn:hover
+{
+      color: white;
+      font-weight: bold;
+      background-color: gray;
+      cursor: pointer;
+}
+.curr_btn
+{
+      background-color: white;
+      font-size: large;
+      border: 2px solid black;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      padding: 5px 10px 5px 10px;
+      border-radius: 50%;
+}
+.curr_btn:hover
+{
+      background-color: rgb(95, 95, 95);
+      cursor: pointer;
+}
+/* about page*/
+
+.card
+{
+      display: block;
+      height:100%;
+      width: 200px;
+      box-shadow: 3px 3px 3px gray;
+      margin: 50px;
+      border: 3px black;
+}
+.card:hover
+{
+      box-shadow: 10px 10px 10px gray;
+}
+.paragraph
+{
+      font-family: french script maths;
+      font-size: large;
+      text-align: center;
+      color: white;
+      background-color: black;
+      padding: 10px;
+}
+.card_image
+{
+      height: 100%;
+      width: 100%;
+}
+/*footer*/
+.user
+{
+      text-align: center;
+      background-color: black;
+      opacity: 0.8;
+      bottom: 0;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+}
+h1
+{
+      font-size:100px;
+      font-family: Arial black;
+      color:white;
+}
+h3
+{
+      font-size: 50px;
+      font-family: Arial black;
+      color: white;
+}
+.copyright
+{
+      font-family: French script MT;
+      color: white;
+      margin-bottom: 15px;
+      display: block;
+}
